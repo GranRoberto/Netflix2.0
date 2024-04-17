@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  background-image: url(./fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fila{
+  display: flex; /*comportamiento*/
+  gap: 5px; /*espacio entre ellos*/
+  justify-content: space-between; /*eje primario*/
+  align-items: center;
+}
+
+.lenguaje{
+  background-color: rgba(5, 5, 7, 0.75);
+  font-size: 15px;
+  font-weight: 60;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px; /*que sea curvo*/
+  margin: 0px; /*espacio entre elementos*/
+  padding: 8px; /*distancia entre el texto y el borde de la caja*/
+  text-align: center; /*alinear el texto*/
+}
+
+.sesion{
+  background-color: red;
+  font-size: 15px;
+  font-weight: 60;
+  color: white;
+  border: 0;
+  border-radius: 5px; /*que sea curvo*/
+  margin: 0px; /*espacio entre elementos*/
+  padding: 8px; /*distancia entre el texto y el borde de la caja*/
+  text-align: center; /*alinear el texto*/
+}
+.sesion:hover {
+  background-color: rgb(184, 28, 28);
+}
