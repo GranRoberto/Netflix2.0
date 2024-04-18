@@ -6,21 +6,27 @@
 
 body{
   background-image: url(./fondo.jpg) ;
+  background-color: black;
   background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: brightness(0.8);
+}
+
+.body{
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
   background-size: cover;
 }
 
-/*
-#body{
-  height: 500px;
-}
-*/
-
 .fila{
-  display: flex; /*comportamiento*/
-  gap: 5px; /*espacio entre ellos*/
-  justify-content: space-between; /*eje primario*/
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 180px;
+}
+
+.logo{
+margin-left: 190px;
 }
 
 .lenguaje{
@@ -29,22 +35,24 @@ body{
   font-weight: 60;
   color: white;
   border: 1px solid white;
-  border-radius: 5px; /*que sea curvo*/
-  margin: 0px; /*espacio entre elementos*/
-  padding: 8px; /*distancia entre el texto y el borde de la caja*/
-  text-align: center; /*alinear el texto*/
+  border-radius: 5px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
 }
 
 .sesion{
   background-color: red;
-  font-size: 15px;
-  font-weight: 60;
+  font-size: 13px;
+  font-weight: 70px;
   color: white;
   border: 0;
-  border-radius: 5px; /*que sea curvo*/
-  margin: 0px; /*espacio entre elementos*/
-  padding: 8px; /*distancia entre el texto y el borde de la caja*/
-  text-align: center; /*alinear el texto*/
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 170px;
+  padding: 8px;
+  text-align: center;
+
 }
 
 .sesion:hover {
@@ -62,11 +70,14 @@ body{
 .uno{
   font-size: 50px;
   color: white;
+  letter-spacing: 0px;
+  word-spacing: 0px;
 }
 
 .dos{
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+  line-height: 1px;
 }
 
 .tres{
@@ -80,22 +91,25 @@ body{
   font-weight: 60;
   color: white;
   border: 1px solid white;
-  border-radius: 5px; /*que sea curvo*/
-  margin: 0px; /*espacio entre elementos*/
-  padding: 8px; /*distancia entre el texto y el borde de la caja*/
-  text-align: left; /*alinear el texto*/
+  border-radius: 5px;
+  margin: 0px;
+  padding: 15px 5px 15px 5px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 200px;
 }
 
 .comenzar{
   background-color: red;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 60;
   color: white;
   border: 0;
-  border-radius: 5px; /*que sea curvo*/
-  margin: 0px; /*espacio entre elementos*/
-  padding: 8px; /*distancia entre el texto y el borde de la caja*/
-  text-align: center; /*alinear el texto*/
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
 }
 
 .comenzar:hover {
