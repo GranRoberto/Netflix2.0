@@ -17,6 +17,8 @@ body{
 .body{
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
   background-size: cover;
+  height: 90vh;
+  min-height: 500px;
 }
 
 .fila{
