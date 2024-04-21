@@ -4,18 +4,19 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body{
+.main{
   background-image: url(./fondo.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   backdrop-filter: brightness(0.8);
-  height: 85vh;
+  height: 75vh;
   min-height: 320px;
 }
 
 .body{
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
-  height: 85vh;
+  height: 75vh;
   min-height: 320px;
   width: 100%;
 }
@@ -80,7 +81,6 @@ margin-left: 190px;
 .dos{
   font-size: 25px;
   color: white;
-  line-height: 1px;
 }
 
 .tres{
@@ -125,3 +125,13 @@ margin-left: 190px;
   justify-content: center;
   align-items: center;
 }
+
+.cuerpo {
+  background-color: black;
+  background-size: cover;
+  z-index: 1000;
+  height: 75vh;
+  min-height: 320px;
+  border-top: 4px solid gray;
+}
+
