@@ -138,17 +138,15 @@ margin-left: 190px;
 
 .a{
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center; /*horizontal*/
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .b{
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center; /*horizontal*/
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
