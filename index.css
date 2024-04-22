@@ -71,7 +71,14 @@ margin-left: 190px;
   align-items: center;
 }
 
-.uno{
+.uno {
+  font-size: 50px;
+  color: white;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+
+.uno-s {
   font-size: 50px;
   color: white;
   letter-spacing: 0px;
@@ -119,35 +126,69 @@ margin-left: 190px;
   background-color: rgb(184, 28, 28);
 }
 
-.fila-dos{
+.fila-uno {
   display: flex;
   gap: 5px;
   justify-content: center;
   align-items: center;
 }
 
+main {
+  background-color: black;
+}
+
 .cuerpo {
   background-color: black;
-  background-size: cover;
   z-index: 1000;
-  height: 75vh;
+  height: 60vh;
   min-height: 320px;
   border-top: 6px solid gray;
-
+  justify-items: center;
+  align-content: center;
 }
 
-.a{
-  margin: auto;
+.fila-dos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 365px 0;
+}
+
+.fila-tres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 365px 0;
+}
+
+.fila-cuatro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 365px 0;
+}
+
+.fila-cinco {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 365px 0;
+}
+
+.a {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
-.b{
-  margin: auto;
+.b {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
+.fila-dos .uno {
+  padding-top: 100px;
+}
 
+.fila-tres .uno-s {
+  padding-top: 200px;
+}
